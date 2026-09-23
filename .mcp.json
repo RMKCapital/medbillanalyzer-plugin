@@ -1,0 +1,6 @@
+{
+  "medbillanalyzer": {
+    "type": "http",
+    "url": "https://app.medbillanalyzer.com/mcp"
+  }
+}

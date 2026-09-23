@@ -1,0 +1,14 @@
+{
+  "name": "medbillanalyzer",
+  "version": "1.0.0",
+  "description": "Check a medical bill against your insurer's Explanation of Benefits (EOB) and see where the bill asks for more than your plan says you owe. The scan is free; the dispute letter and phone script are a paid unlock.",
+  "author": {
+    "name": "MedBillAnalyzer",
+    "email": "support@medbillanalyzer.com",
+    "url": "https://medbillanalyzer.com"
+  },
+  "homepage": "https://medbillanalyzer.com/claude",
+  "repository": "https://github.com/RMKCapital/medbillanalyzer-plugin",
+  "license": "MIT",
+  "keywords": ["medical bills", "explanation of benefits", "eob", "health insurance", "billing errors"]
+}
