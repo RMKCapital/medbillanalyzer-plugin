@@ -1,6 +1,8 @@
 {
-  "medbillanalyzer": {
-    "type": "http",
-    "url": "https://app.medbillanalyzer.com/mcp/grok"
+  "mcpServers": {
+    "medbillanalyzer": {
+      "type": "http",
+      "url": "https://app.medbillanalyzer.com/mcp/grok"
+    }
   }
 }
