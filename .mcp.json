@@ -1,6 +1,6 @@
 {
   "medbillanalyzer": {
     "type": "http",
-    "url": "https://app.medbillanalyzer.com/mcp"
+    "url": "https://app.medbillanalyzer.com/mcp/grok"
   }
 }

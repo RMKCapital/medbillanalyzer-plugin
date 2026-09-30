@@ -1,16 +1,20 @@
-# MedBillAnalyzer for Claude
+# MedBillAnalyzer for Grok Build
 
 Check a medical bill against your insurer's Explanation of Benefits (EOB) and see where the bill asks for more than your plan says you owe.
 
-This plugin connects Claude Code and Cowork to MedBillAnalyzer's remote MCP server and adds a skill that tells Claude how to use it.
+This plugin connects Grok Build to MedBillAnalyzer's remote MCP server and adds a skill that tells Grok how to use it. (This is the `grok` branch; the Claude Code and Cowork version is on `main`.)
 
 ## What's included
 
 | Component | What it does |
 |---|---|
-| `.mcp.json` | Connects to `https://app.medbillanalyzer.com/mcp` (Streamable HTTP, no sign-in) |
+| `.mcp.json` | Connects to `https://app.medbillanalyzer.com/mcp/grok` (Streamable HTTP, no sign-in) |
 | `skills/check-medical-bill` | How to run a check, read the results, offer the paid unlock, and handle the patient's privacy |
 | `commands/check-bill` | `/medbillanalyzer:check-bill` starts a check |
+
+## Network and credentials
+
+The plugin calls one endpoint, `https://app.medbillanalyzer.com/mcp/grok`, over HTTPS. It needs no credentials, runs no local code, and has no hooks.
 
 ## Tools
 
@@ -36,10 +40,10 @@ The scan is free and shows how much is in question and the title of each finding
 
 ## Privacy Policy
 
-What reaches MedBillAnalyzer is what Claude sends: the figures read off your documents, or the documents themselves if Claude attaches them. We keep results for 30 days and then delete them, you can delete a case at any time, and nothing is used to train AI models. Full policy: https://medbillanalyzer.com/privacy
+What reaches MedBillAnalyzer is what Grok sends: the figures read off your documents, or the documents themselves if Grok attaches them. We keep results for 30 days and then delete them, you can delete a case at any time, and nothing is used to train AI models. Full policy: https://medbillanalyzer.com/privacy
 
 ## Support
 
-support@medbillanalyzer.com · https://medbillanalyzer.com/claude
+support@medbillanalyzer.com · https://medbillanalyzer.com/grok
 
 This is not legal, medical, or financial advice. It compares documents you supplied and helps you ask questions about them.

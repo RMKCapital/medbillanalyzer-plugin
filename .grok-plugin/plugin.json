@@ -7,8 +7,11 @@
     "email": "support@medbillanalyzer.com",
     "url": "https://medbillanalyzer.com"
   },
-  "homepage": "https://medbillanalyzer.com/claude",
+  "homepage": "https://medbillanalyzer.com/grok",
   "repository": "https://github.com/RMKCapital/medbillanalyzer-plugin",
   "license": "MIT",
-  "keywords": ["medical bills", "explanation of benefits", "eob", "health insurance", "billing errors"]
+  "keywords": [
+    "medbillanalyzer",
+    "medbill analyzer"
+  ]
 }
