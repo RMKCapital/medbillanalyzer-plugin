@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "medbillanalyzer": {
+      "type": "http",
+      "url": "https://app.medbillanalyzer.com/mcp/apps?via=cursor_marketplace"
+    }
+  }
+}
