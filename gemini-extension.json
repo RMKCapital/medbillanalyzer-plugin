@@ -1,0 +1,11 @@
+{
+  "name": "medbillanalyzer",
+  "version": "1.0.0",
+  "description": "Check a medical bill against your insurer's Explanation of Benefits (EOB) and see where they disagree. Free scan; $10 per bill unlocks every finding, a dispute letter and a phone script.",
+  "mcpServers": {
+    "medbillanalyzer": {
+      "httpUrl": "https://app.medbillanalyzer.com/mcp/apps?via=gemini_cli"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

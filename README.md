@@ -2,7 +2,7 @@
 
 Check a medical bill against your insurer's Explanation of Benefits (EOB) and see where the bill asks for more than your plan says you owe.
 
-This plugin connects Claude Code, Cowork and Cursor to MedBillAnalyzer's remote MCP server, and adds a skill that tells the agent how to use it.
+This plugin connects Claude Code, Cowork, Cursor and Gemini CLI to MedBillAnalyzer's remote MCP server, and adds a skill that tells the agent how to use it.
 
 ## What's included
 
@@ -10,6 +10,7 @@ This plugin connects Claude Code, Cowork and Cursor to MedBillAnalyzer's remote 
 |---|---|
 | `.mcp.json` | Claude Code and Cowork: connects to `https://app.medbillanalyzer.com/mcp` (Streamable HTTP, no sign-in) |
 | `.cursor-plugin/plugin.json` + `mcp.json` | Cursor: connects to `https://app.medbillanalyzer.com/mcp/apps` (Streamable HTTP, no sign-in) |
+| `gemini-extension.json` + `GEMINI.md` | Gemini CLI: `gemini extensions install https://github.com/RMKCapital/medbillanalyzer-plugin` |
 | `skills/check-medical-bill` | How to run a check, read the results, offer the paid unlock, and handle the patient's privacy |
 | `commands/check-bill` | `/medbillanalyzer:check-bill` starts a check |
 
